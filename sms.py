@@ -201,7 +201,7 @@ class SendSms():
 
                 try:
 
-                    kigili = requests.post("https://www.kigili.com/users/registration/", data={
+                    kigili = requests.post("https://www.beymen.com/customer/register?returnUrl=/customer", data={
 
                     "first_name": "Memati",
 
